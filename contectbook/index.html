@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="container">
+    <div id="maincard">
+        <div id="title"><h1>Contact book</h1></div>
+        <div id="searchbox">
+            <input id="input" placeholder="search">
+            <button id="seachbtn" onclick="search()">GO</button>
+        </div>
+    </div>
+    <div id="addcontact">
+        <h1>ADD Contact</h1>
+        <input id="name" placeholder="name">
+        <input id="number" placeholder="number">
+        <input id="address" placeholder="address">
+        <button id="addbutton" onclick="add()">ADD</button>
+        <p id="paste"></p>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
