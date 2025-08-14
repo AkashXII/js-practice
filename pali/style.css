@@ -1,0 +1,68 @@
+/* Centered card */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Input and check button */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  #checkBtn {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0077ff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Result buttons */
+  .result-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .result-buttons button {
+    padding: 10px 20px;
+    border: 2px solid #888;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .result-buttons .active {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+  }
+  
+  .result-buttons .not-activ {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+  }
+  
