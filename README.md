@@ -1,1 +1,1 @@
-These are just my practice work, primarily focusing on html and js :)))
+These are just my practice works, primarily focusing on html and js :)))
